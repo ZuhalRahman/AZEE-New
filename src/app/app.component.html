@@ -1,0 +1,57 @@
+<section class="banner-area" id="home">
+    <!-- Start Header Area -->
+    <header class="default-header">
+        <nav class="navbar navbar-expand-lg  navbar-light">
+            <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="./assets/img/logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="lnr lnr-menu"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li routerLinkActive="active">
+                          <a [routerLink]="['/home']">Home</a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a [routerLink]="['/wquran']">wquran</a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a [routerLink]="['/about']">about us</a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a [routerLink]="['/contact']">contact us</a>
+                        </li>				
+
+                        <!-- <li><a href="#faq">Faq</a></li> -->
+                        <!-- Dropdown -->
+                        <!-- <li class="dropdown">
+                          <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Pages
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="generic.html">Generic</a>
+                            <a class="dropdown-item" href="elements.html">Elements</a>
+                          </div>
+                        </li>								 -->
+                    </ul>
+                  </div>						
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Area -->				
+       
+    </section>
+
+
+    <router-outlet></router-outlet>
+<!-- <div class="page">
+<app-home></app-home>
+<app-wquran></app-wquran>
+<app-about></app-about>
+<app-contact></app-contact>
+
+</div> -->
+<app-footer></app-footer>
