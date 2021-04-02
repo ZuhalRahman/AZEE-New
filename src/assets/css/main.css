@@ -2044,12 +2044,12 @@ h6 {
   position: relative;
 }
 
-.primary-btn:hover {
-  color: #222;
-  background: transparent;
+/* .primary-btn:hover {
+  color: #fff;
+  background: #42d1ff;
   border: 1px solid #222;
   box-shadow: 0px 20px 20px 0px rgba(157, 157, 157, 0.5);
-}
+} */
 
 .load-more {
   border: 1px solid transparent;
@@ -2657,7 +2657,7 @@ video {
   padding-right: 60px;
   border-radius: 25px;
   border: none;
-  color: #fff;
+  color:#42d1ff;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2675,7 +2675,7 @@ video {
 }
 
 .footer-area .primary-btn span {
-  color: #fff;
+  color: #42d1ff;
   position: absolute;
   top: 50%;
   transform: translateY(-60%);
@@ -2688,29 +2688,31 @@ video {
 
 .footer-area .primary-btn:hover {
   box-shadow: none;
-  color: #fff;
+  color: #42d1ff;
+  
 }
 
 .footer-area .primary-btn:hover span {
-  color: #fff;
+  color: #42d1ff;
   right: 20px;
 }
 
-.footer-area .primary-btn.white {
-  border: 1px solid #fff;
-  color: #fff;
+.footer-area .primary-btn{
+  border: 1px solid  #42d1ff;
+  color: #42d1ff;
+
 }
 
-.footer-area .primary-btn.white span {
-  color: #fff;
-}
-
-.footer-area .primary-btn.white:hover {
-  background: #fff;
+.footer-area .primary-btn span {
   color: #42d1ff;
 }
 
-.footer-area .primary-btn.white:hover span {
+.footer-area .primary-btn:hover {
+  background: #42d1ff;
+  color: #42d1ff;
+}
+
+.footer-area .primary-btn:hover span {
   color: #42d1ff;
 }
 
